@@ -19,8 +19,8 @@ public class DatabaseAccess
     private Statement statement = null;
     private java.sql.PreparedStatement preparedStatement = null;
     private ResultSet resultSet = null;
-    private long userId = 97544;
-    private long geoId = 97544;
+    private long userId = 0;
+    private long geoId = 0;
     
 	DatabaseAccess()
 	{
